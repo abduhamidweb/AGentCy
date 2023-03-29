@@ -1,0 +1,177 @@
+.hamkor {
+
+  border: 1px solid #4e4e4e;
+  padding: 60px;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.formHamkor {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+
+  input {
+    max-width: 500px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #aaaaaa;
+    margin: 5px 0px;
+    background: transparent;
+    padding: 8px 0px;
+  }
+}
+.hamkorTitle {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.HamkorBox1 {
+  background: #5353531a;
+  box-shadow: 20px 20px 40px 0px #f1d8fd14;
+  border-radius: 10px;
+  max-width: 487px;
+  width: 100%;
+  padding: 40px 60px;
+  height: 602px;
+  margin-top: 50px;
+}
+
+input:focus {
+  outline: none;
+}
+.check-1 {
+  span {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+
+    input {
+      border: 1px solid #4e4e4e;
+    }
+  }
+}
+.check-2 {
+  span {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+
+    input {
+      border: 1px solid #4e4e4e;
+    
+    }
+  }
+}
+.check {
+  justify-content: space-between;
+}
+.titleHamkor {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 40px;
+}
+.cofe-card {
+  max-width: 150px;
+  width: 100%;
+  text-align: center;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: text;
+    margin-top: 10px;
+  }
+}
+.box1-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.cofes {
+  gap: 66px;
+  margin-top: 40px;
+}
+.minibox {
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 992px) {
+  .hamkor {
+    padding: 30px;
+  }
+
+  .check {
+    flex-wrap: wrap;
+  }
+  .HamkorBox1 {
+    height: 500px;
+    padding: 30px 50px;
+  }
+  .cofe-card {
+    width: 150px;
+    margin: 0px;
+
+    h2 {
+      font-size: 18px;
+    }
+
+    img {
+      max-width: 80px;
+      width: 100%;
+    }
+  }
+  .cofes {
+    margin-top: 40px;
+  }
+  .hamkorTitle {
+    text-align: center;
+  }
+
+  .formHamkor {
+    margin: auto;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 612px) {
+  .HamkorBox1 {
+    max-width: 487px;
+    width: 100%;
+    padding: 20px 20px;
+    height: 450px;
+  }
+  .cofes {
+    margin: 50px auto;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+@media (max-width: 512px) {
+  .HamkorBox1 {
+    width: 350px !important;
+    padding: 10px 15px;
+    height: 450px;
+  }
+  .cofes {
+    margin-left: 10px;
+    gap: 10px;
+  }
+}

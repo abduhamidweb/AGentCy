@@ -1,0 +1,96 @@
+:root {
+  --body_background: #1e1e1e;
+  --body_color: #fff;
+  --body_backgroun_image: url(./assets/images/bodyBackground.png);
+  --about_background: #000;
+  --our_background: linear-gradient(
+      0deg,
+      rgba(14, 16, 20, 0.9),
+      rgba(14, 16, 20, 0.9)
+    ),
+    linear-gradient(0deg, #4e4e4e, #4e4e4e);
+  --blog_card_background: linear-gradient(
+      0deg,
+      rgba(14, 16, 20, 0.9),
+      rgba(14, 16, 20, 0.9)
+    ),
+    linear-gradient(0deg, #4e4e4e, #4e4e4e);
+  --footer_background: rgba(14, 16, 20, 0.9);
+  --header_background: rgba(23, 25, 29, 0.7);
+  --our_team_card_background: rgba(17, 19, 23, 0.864);
+  --oppo_card_background: rgba(17, 19, 23, 0.5);
+  --project_menu_background: rgba(17, 19, 23, 0.5);
+  --hamkor_background: linear-gradient(
+    0deg,
+    rgba(14, 16, 20, 0.9),
+    rgba(14, 16, 20, 0.9)
+  ),
+  linear-gradient(0deg, #4e4e4e, #4e4e4e);
+  --input_color:#fff;
+}
+[data-theme="light"] {
+  --body_background: #fff;
+  --body_color: #000;
+  --body_backgroun_image: none;
+  --about_background: #fff;
+  --our_background: #fff;
+  --blog_card_background: #fff;
+  --footer_background: none;
+  --header_background: none;
+  --our_team_card_background: #ffffffce;
+  --oppo_card_background: none;
+  --project_menu_background: none;
+  --hamkor_background: none;
+  --input_color:#000;
+  
+
+}
+
+body {
+  background-image: var(--body_backgroun_image);
+  background-color: var(--body_background);
+  overflow-x: hidden !important;
+  position: relative !important;
+  z-index: -1;
+  color: var(--body_color) !important;
+}
+.nav-link {
+  color: var(--body_color) !important;
+}
+.about {
+  background-color: var(--about_background);
+}
+.our {
+  background-color: var(--our_background);
+}
+.BlogCard {
+  background-color: var(--blog_card_background);
+}
+header {
+  background-color: var(--header_background);
+}
+footer {
+  background-color: var(--footer_background);
+}
+.OurTeamCard__body {
+  background-color: var(--our_team_card_background);
+}
+.card{
+    background-color: var(--oppo_card_background);
+}
+.projects__menu__wrap{
+    background-color: var(--project_menu_background);
+}
+.mainNewsTextWrapp, .sidebarCardInfo{
+background-color: var(--about_background);
+}
+.hamkor{
+  background-color: var(--hamkor_background);
+}
+input:focus {
+color: var(--input_color);
+}
+.container {
+  max-width: 1270px !important;
+  width: 100% !important;
+}
